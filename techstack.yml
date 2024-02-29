@@ -1,0 +1,287 @@
+repo_name: 2lambda123/storm-yarn
+report_id: 62ddd6bb088f88eab9bbdeee0cb0d027
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:13:40+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn
+  detection_source: Repo Metadata
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-12 22:00:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Robert (Bobby) Evans
+  last_updated_on: 2013-05-15 14:55:39.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Robert (Bobby) Evans
+  last_updated_on: 2013-05-15 14:55:39.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Robert (Bobby) Evans
+  last_updated_on: 2013-05-15 14:55:39.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: anfeng
+  last_updated_on: 2013-07-18 00:35:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn
+  detection_source: Repo Metadata
+- name: com.googlecode.json-simple:json-simple
+  description: A simple Java toolkit for JSON
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+- name: org.apache.hadoop:hadoop-common
+  description: Apache Hadoop Common
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-12 22:00:06.000000000 Z
+  vulnerabilities:
+  - name: Apache Hadoop argument injection vulnerability
+    cve_id: CVE-2022-25168
+    cve_url: https://github.com/advisories/GHSA-8wm5-8h9c-47pc
+    detected_date: Aug 12
+    severity: critical
+    first_patched: 3.2.4
+- name: org.apache.hadoop:hadoop-mapreduce-client-core
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-12 22:00:06.000000000 Z
+- name: org.apache.hadoop:hadoop-yarn-client
+  version: 3.2.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-12 22:00:06.000000000 Z
+- name: org.apache.hadoop:hadoop-yarn-server-tests
+  version: 3.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-12 22:00:06.000000000 Z
+- name: org.apache.storm:storm-core
+  description: Storm Core Java API and Clojure implementation
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Kishor Patil
+  last_updated_on: 2019-01-23 23:53:02.000000000 Z
+  vulnerabilities:
+  - name: Exposure of Sensitive Information in Apache Storm Logviewer
+    cve_id: CVE-2019-0202
+    cve_url: https://github.com/advisories/GHSA-r9pv-hg64-jqrp
+    detected_date: Nov 5
+    severity: high
+    first_patched: 1.2.3
+- name: org.apache.zookeeper:zookeeper
+  version: 3.4.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+  vulnerabilities:
+  - name: Authorization Bypass Through User-Controlled Key vulnerability in Apache
+      ZooKeeper
+    cve_id: CVE-2023-44981
+    cve_url: https://github.com/advisories/GHSA-7286-pgfv-vxvh
+    detected_date: Oct 12
+    severity: critical
+    first_patched: 3.7.2
+- name: org.mockito:mockito-all
+  description: Mock objects library for java
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+- name: org.yaml:snakeyaml
+  description: YAML 1.1 parser and emitter for Java
+  version: '1.31'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/storm-yarn/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: wendyshusband
+  last_updated_on: 2017-02-10 04:23:27.000000000 Z
+  vulnerabilities:
+  - name: SnakeYaml Constructor Deserialization Remote Code Execution
+    cve_id: CVE-2022-1471
+    cve_url: https://github.com/advisories/GHSA-mjmj-j48q-9wg2
+    detected_date: Dec 13
+    severity: high
+    first_patched: '2.0'
+  - name: snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds
+      Write
+    cve_id: CVE-2022-38752
+    cve_url: https://github.com/advisories/GHSA-9w3m-gqgf-c4p9
+    detected_date: Sep 14
+    severity: moderate
+    first_patched: '1.32'
+  - name: Snakeyaml vulnerable to Stack overflow leading to denial of service
+    cve_id: CVE-2022-41854
+    cve_url: https://github.com/advisories/GHSA-w37g-rhq8-7m4j
+    detected_date: Nov 22
+    severity: moderate
+    first_patched: '1.32'
